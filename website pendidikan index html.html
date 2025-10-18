@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HanEducation - Marketplace Digital Edukasi</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9ff;
+      color: #333;
+    }
+    header {
+      background-color: #004aad;
+      color: white;
+      text-align: center;
+      padding: 20px 10px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2em;
+    }
+    nav {
+      background-color: #003580;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 10px 0;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    main {
+      padding: 30px 20px;
+      max-width: 1000px;
+      margin: auto;
+      text-align: center;
+    }
+    .intro {
+      margin-bottom: 40px;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .product {
+      background-color: white;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      padding: 15px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    .product h3 {
+      color: #004aad;
+    }
+    .product button {
+      background-color: #004aad;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      padding: 8px 15px;
+      cursor: pointer;
+    }
+    .product button:hover {
+      background-color: #003580;
+    }
+    footer {
+      text-align: center;
+      background-color: #004aad;
+      color: white;
+      padding: 15px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>HanEducation</h1>
+    <p>Marketplace Digital Edukasi — Tempatnya Perangkat Ajar dan Makalah Berkualitas</p>
+  </header>
+
+  <nav>
+    <a href="#beranda">Beranda</a>
+    <a href="#produk">Produk</a>
+    <a href="#tentang">Tentang</a>
+    <a href="#kontak">Kontak</a>
+  </nav>
+
+  <main>
+    <section id="beranda" class="intro">
+      <h2>Selamat Datang di HanEducation</h2>
+      <p>Temukan berbagai <strong>barang digital pendidikan</strong> seperti perangkat ajar, makalah, dan bahan ajar inovatif yang siap membantu proses belajar mengajar Anda.</p>
+    </section>
+
+    <section id="produk">
+      <h2>Produk Unggulan</h2>
+      <div class="products">
+        <div class="product">
+          <h3>Perangkat Ajar IPS Kelas 8</h3>
+          <p>Paket lengkap berisi modul ajar, LKPD, dan media pembelajaran.</p>
+          <p><strong>Rp 25.000</strong></p>
+          <button>Beli Sekarang</button>
+        </div>
+        <div class="product">
+          <h3>Makalah Sejarah Kolonialisme</h3>
+          <p>Makalah akademik siap pakai dengan sumber referensi terpercaya.</p>
+          <p><strong>Rp 10.000</strong></p>
+          <button>Beli Sekarang</button>
+        </div>
+        <div class="product">
+          <h3>Media Ajar Interaktif PowerPoint</h3>
+          <p>Slide presentasi profesional untuk pembelajaran kelas digital.</p>
+          <p><strong>Rp 20.000</strong></p>
+          <button>Beli Sekarang</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="tentang" style="margin-top: 50px;">
+      <h2>Tentang Kami</h2>
+      <p><strong>HanEducation</strong> adalah platform edukasi digital yang menyediakan berbagai sumber daya pembelajaran dalam format digital. Kami percaya bahwa teknologi dapat mempercepat kemajuan pendidikan di Indonesia.</p>
+    </section>
+
+    <section id="kontak" style="margin-top: 50px;">
+      <h2>Hubungi Kami</h2>
+      <p>Email: <a href="mailto:haneducation@gmail.com">haneducation@gmail.com</a></p>
+      <p>Instagram: <a href="https://instagram.com/haneducation" target="_blank">@haneducation</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 HanEducation. Semua Hak Dilindungi.</p>
+  </footer>
+</body>
+</html>
